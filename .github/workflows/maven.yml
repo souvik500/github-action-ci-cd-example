@@ -36,7 +36,7 @@ jobs:
         image: admin2525/springboot-image-githubactions-cicd
         tags: latest
         registry: registry-url.io
-        dockerfile: Dockerfile.ci
+        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
       
